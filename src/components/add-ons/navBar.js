@@ -8,16 +8,16 @@ export default class Nav extends Component {
         <Link  to="/" className="tab">
           Home
         </Link>
-        <Link  to="/" className="tab">
+        <Link  to="/Army" className="tab">
           Army
         </Link>
-        <Link  to="/" className="tab">
+        <Link  to="/Parts" className="tab">
           Parts
         </Link>
-        <Link  to="/" className="tab">
+        <Link  to="/Rules" className="tab">
           Rules
         </Link>
-        <Link  to="/" className="tab">
+        <Link  to="/Lore" className="tab">
           Lore
         </Link>
       </div>

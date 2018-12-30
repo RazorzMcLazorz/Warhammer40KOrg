@@ -6,6 +6,10 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import reducers from './reducers';
 
 import App from './components/app';
+import Army from './components/army';
+import Parts from './components/parts';
+import Rules from './components/rules';
+import Lore from './components/lore';
 
 const createStoreWithMiddleware = applyMiddleware()(createStore);
 
@@ -18,6 +22,10 @@ function main() {
       <BrowserRouter>
         <Switch>
             <Route exact path="/" component={App} />
+            <Route exact path="/Army" component={Army} />
+            <Route exact path="/Parts" component={Parts} />
+            <Route exact path="/Rules" component={Rules} />
+            <Route exact path="/Lore" component={Lore} />
          </Switch>
       </BrowserRouter>
     </Provider>

@@ -2,7 +2,6 @@
 import { ADD_ARTICLE, CHANGE_STATE } from "./action-types";
 
 const initialState = {
-  x : 'hi',
 };
 
 // Sends Out the Props and Updates the props
