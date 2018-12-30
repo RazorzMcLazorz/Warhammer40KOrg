@@ -1,24 +1,25 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 export default class Nav extends Component {
   render() {
     return (
       <div id='nav'>
-        <div>
+        <Link  to="/" to="/">
           Home
-        </div>
-        <div>
+        </Link>
+        <Link  to="/">
           Army
-        </div>
-        <div>
+        </Link>
+        <Link  to="/">
           Parts
-        </div>
-        <div>
+        </Link>
+        <Link  to="/">
           Rules
-        </div>
-        <div>
+        </Link>
+        <Link  to="/">
           Lore
-        </div>
+        </Link>
       </div>
     );
   }

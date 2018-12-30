@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
+
 import Nav from './navBar';
+import Footer from './footer';
 
 export default class App extends Component {
   render() {
@@ -7,8 +9,14 @@ export default class App extends Component {
       <div id='app'>
         <Nav/>
         <div id="title">
-          Warhammer 40,000 2018 EDITION
+          <div id="titleEd">
+            Warhammer 40,000 2018 EDITION
+          </div>
+          <div>
+            <img id="titlePic" src="./assets/40KTitle.jpg"></img>
+          </div>
         </div>
+        <Footer/>
       </div>
     );
   }
