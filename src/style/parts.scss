@@ -1,0 +1,33 @@
+#parts {
+  #skitariiStartCollectingBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    #scbShown {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 300px;
+      height: 350px;
+      #scbp {
+        width: 100%;
+        height: 300px;
+      }
+    }
+    #scbHidden {
+      display: none;
+    }
+  }
+  #skitariiStartCollectingBox:hover {
+    #scbHidden {
+      display: flex;
+      flex-wrap: wrap;
+      .scbgrid {
+        width: 150px;
+        height: 150px;
+      }
+    }
+  }
+}
