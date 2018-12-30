@@ -5,19 +5,19 @@ export default class Nav extends Component {
   render() {
     return (
       <div id='nav'>
-        <Link  to="/" to="/">
+        <Link  to="/" className="tab">
           Home
         </Link>
-        <Link  to="/">
+        <Link  to="/" className="tab">
           Army
         </Link>
-        <Link  to="/">
+        <Link  to="/" className="tab">
           Parts
         </Link>
-        <Link  to="/">
+        <Link  to="/" className="tab">
           Rules
         </Link>
-        <Link  to="/">
+        <Link  to="/" className="tab">
           Lore
         </Link>
       </div>

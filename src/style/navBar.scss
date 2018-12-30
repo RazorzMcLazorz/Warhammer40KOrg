@@ -5,7 +5,7 @@
   align-items: center;
   height: 40px;
   width: 100vw;
-  div {
+  .tab {
     height: 100%;
     width: 20%;
     display: flex;
@@ -13,8 +13,13 @@
     align-items: center;
     border-radius: 5px;
     cursor: pointer;
+    text-decoration: none;
+    outline: none;
+    color: black;
   }
-  div:hover {
+  .tab:hover {
     background-color: whitesmoke;
+    text-decoration: none;
+    outline: none;
   }
 }

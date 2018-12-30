@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
+import * as actions from '../reducers/actions';
 
-import Nav from './navBar';
-import Footer from './footer';
+import Nav from './add-ons/navBar';
+import Footer from './add-ons/footer';
 
-export default class App extends Component {
+class App extends Component {
   render() {
     return (
       <div id='app'>
@@ -21,3 +23,11 @@ export default class App extends Component {
     );
   }
 }
+
+const mapStateToProps = (state) => {
+  return state
+}
+
+App = connect(mapStateToProps, actions)(App);
+
+export default App;
