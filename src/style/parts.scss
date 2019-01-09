@@ -1,9 +1,14 @@
 #parts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   #skitariiStartCollectingBox {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 80vw;
     #scbShown {
       display: flex;
       flex-direction: column;
