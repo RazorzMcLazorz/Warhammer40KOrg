@@ -1,0 +1,31 @@
+#army {
+    display: flex;
+    flex-direction: column;
+    .body {
+        .units {
+            display: flex;
+            flex-direction: column;
+            margin-left: 20px;
+            margin-bottom: 10px;
+            padding: 5px;
+            height: 100%;
+            width: 80vw;
+            border-style: groove;
+            border-width: 1px;
+            border-color: black;
+            border-radius: 15px;
+            div {
+                .weapon {
+                    border-style: solid;
+                    border-width: 0;
+                    border-bottom-width: 1px;
+                    border-color: black;
+                    margin-bottom: 5px;
+                    .weaponPoints {
+                        width: 60px;
+                    }
+                }
+            }
+        }
+    }
+}
